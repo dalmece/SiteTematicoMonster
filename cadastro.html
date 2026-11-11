@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro - Mercado Monster</title>
+</head>
+<body>
+
+    <header>
+        <h2>Formulário de Cadastro</h2>
+
+        <nav>
+            <a href="index.html">Voltar para a Página Inicial</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+
+            <h3>Cadastro de cliente</h3>
+
+            <p>
+                Preencha os campos abaixo para registrar sua compra
+                no Mercado Monster.
+            </p>
+
+            <form action="#" method="get">
+
+                <p>
+                    <label for="campo-nome">Nome Completo:</label><br>
+                    <input type="text" id="campo-nome" name="nome" required>
+                </p>
+
+                <p>
+                    <label for="campo-cpf">CPF:</label><br>
+                    <input type="text" id="campo-cpf" name="cpf" required>
+                </p>
+
+                <p>
+                    <label for="campo-email">E-mail:</label><br>
+                    <input type="email" id="campo-email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="campo-rua">Endereço - Rua:</label><br>
+                    <input type="text" id="campo-rua" name="rua" required>
+                </p>
+
+                <p>
+                    <label for="campo-cidade">Endereço - Cidade:</label><br>
+                    <input type="text" id="campo-cidade" name="cidade" required>
+                </p>
+
+                <p>
+                    <label for="campo-estado">Endereço - Estado:</label><br>
+                    <input type="text" id="campo-estado" name="estado" required>
+                </p>
+
+                <p>
+                    <label for="campo-pais">Endereço - País:</label><br>
+                    <input type="text" id="campo-pais" name="pais" required>
+                </p>
+
+                <p>
+                    <label for="campo-senha">Senha:</label><br>
+                    <input type="password" id="campo-senha" name="senha" required>
+                </p>
+
+                <p>
+                    <label for="campo-produto">Escolha seu energético:</label><br>
+
+                    <select id="campo-produto" name="produto" required>
+                        <option value="">Selecione um produto</option>
+                        <option value="Monster Original">Monster Energy Original - R$ 9,99</option>
+                        <option value="Monster Ultra White">Monster Ultra White - R$ 10,49</option>
+                        <option value="Monster Mango Loco">Monster Mango Loco - R$ 11,49</option>
+                        <option value="Monster Pipeline Punch">Monster Pipeline Punch - R$ 11,49</option>
+                        <option value="Monster Ultra Paradise">Monster Ultra Paradise - R$ 10,49</option>
+                        <option value="Monster Ultra Violet">Monster Ultra Violet - R$ 10,49</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="campo-quantidade">Quantidade:</label><br>
+                    <input type="number" id="campo-quantidade" name="quantidade" min="1" value="1" required>
+                </p>
+
+                <button type="submit">Concluir Cadastro</button>
+
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Mercado Monster - Projeto acadêmico - © 2026</p>
+    </footer>
+
+</body>
+</html>
